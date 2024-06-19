@@ -1,0 +1,24 @@
+{
+    "name": "vesna/databox-integration-challenge",
+    "description": "A service that will provide ways to extract metrics (e.g. number of followers, page views, number of sales, most visited blog articles) from different data sources and send the extracted data to Databox platform via Push API.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vesna\\DataboxIntegrationChallenge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vesna"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.1",
+        "databox/databox": "^2.0",
+        "vlucas/phpdotenv": "^5.4",
+        "monolog/monolog": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    }
+}
