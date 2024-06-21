@@ -96,3 +96,563 @@
 [2024-06-18 22:18:12] Successfully pushed weather_pressure to Databox
 [2024-06-18 22:18:12] Data successfully pushed to Databox
 [2024-06-18 22:18:12] Script ended
+[2024-06-20 01:37:38] Script started
+[2024-06-20 01:37:40] Fetched weather data: {"temperature":10.32,"humidity":87,"pressure":1022}
+[2024-06-20 01:37:42] Successfully pushed temperature to Databox
+[2024-06-20 01:37:42] Successfully pushed humidity to Databox
+[2024-06-20 01:37:42] Successfully pushed pressure to Databox
+[2024-06-20 01:37:42] Data successfully pushed to Databox
+[2024-06-20 01:37:42] Script ended
+[2024-06-20 01:39:06] Script started
+[2024-06-20 01:39:07] Fetched weather data: {"temperature":10.32,"humidity":87,"pressure":1022}
+[2024-06-20 01:39:07] Successfully pushed temperature to Databox
+[2024-06-20 01:39:08] Successfully pushed humidity to Databox
+[2024-06-20 01:39:08] Successfully pushed pressure to Databox
+[2024-06-20 01:39:08] Data successfully pushed to Databox
+[2024-06-20 01:39:08] Script ended
+[2024-06-20 01:39:45] Script started
+[2024-06-20 01:39:45] Fetched weather data: {"temperature":18.62,"humidity":86,"pressure":1017}
+[2024-06-20 01:39:46] Successfully pushed temperature to Databox
+[2024-06-20 01:39:46] Successfully pushed humidity to Databox
+[2024-06-20 01:39:46] Successfully pushed pressure to Databox
+[2024-06-20 01:39:46] Data successfully pushed to Databox
+[2024-06-20 01:39:46] Script ended
+[2024-06-20 01:40:39] Script started
+[2024-06-20 01:40:39] Fetched weather data: {"temperature":18.57,"humidity":83,"pressure":1018}
+[2024-06-20 01:40:40] Successfully pushed temperature to Databox
+[2024-06-20 01:40:40] Successfully pushed humidity to Databox
+[2024-06-20 01:40:40] Successfully pushed pressure to Databox
+[2024-06-20 01:40:40] Data successfully pushed to Databox
+[2024-06-20 01:40:40] Script ended
+[2024-06-20 01:41:02] Script started
+[2024-06-20 01:41:02] Fetched weather data: {"temperature":18.62,"humidity":86,"pressure":1017}
+[2024-06-20 01:41:03] Successfully pushed temperature to Databox
+[2024-06-20 01:41:03] Successfully pushed humidity to Databox
+[2024-06-20 01:41:03] Successfully pushed pressure to Databox
+[2024-06-20 01:41:03] Data successfully pushed to Databox
+[2024-06-20 01:41:03] Script ended
+[2024-06-20 01:41:19] Script started
+[2024-06-20 01:41:20] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":null}
+[2024-06-20 01:41:21] Successfully pushed public_repos to Databox
+[2024-06-20 01:41:21] Successfully pushed followers to Databox
+[2024-06-20 01:41:21] Error pushing data to Databox: Client error: `POST https://push.databox.com/` resulted in a `400 Bad Request` response:
+{"status":"BAD_REQUEST","message":"HV000028: Unexpected exception during isValid call.","id":null}
+
+[2024-06-20 01:41:21] Script ended
+[2024-06-20 01:47:52] Script started
+[2024-06-20 01:47:52] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":null}
+[2024-06-20 01:47:53] Successfully pushed public_repos to Databox
+[2024-06-20 01:47:53] Successfully pushed followers to Databox
+[2024-06-20 01:47:53] Error pushing data to Databox: Client error: `POST https://push.databox.com/` resulted in a `400 Bad Request` response:
+{"status":"BAD_REQUEST","message":"HV000028: Unexpected exception during isValid call.","id":null}
+
+[2024-06-20 01:47:53] Script ended
+[2024-06-20 01:54:52] Script started
+[2024-06-20 01:54:53] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":0}
+[2024-06-20 01:54:55] Successfully pushed public_repos to Databox
+[2024-06-20 01:54:55] Successfully pushed followers to Databox
+[2024-06-20 01:54:55] Successfully pushed stars to Databox
+[2024-06-20 01:54:55] Data successfully pushed to Databox
+[2024-06-20 01:54:55] Script ended
+[2024-06-20 01:57:55] Script started
+[2024-06-20 01:57:56] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":0,"following":null}
+[2024-06-20 01:57:56] Successfully pushed public_repos to Databox
+[2024-06-20 01:57:57] Successfully pushed followers to Databox
+[2024-06-20 01:57:57] Successfully pushed stars to Databox
+[2024-06-20 01:57:57] Error pushing data to Databox: Client error: `POST https://push.databox.com/` resulted in a `400 Bad Request` response:
+{"status":"BAD_REQUEST","message":"HV000028: Unexpected exception during isValid call.","id":null}
+
+[2024-06-20 01:57:57] Script ended
+[2024-06-20 02:53:45] Metrics setup script started
+[2024-06-20 02:53:46] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-20 02:53:46] Error creating metric wind_speed: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-20 02:53:46] Metrics setup completed successfully
+[2024-06-20 02:53:46] Metrics setup script ended
+[2024-06-20 02:54:26] Script started
+[2024-06-20 02:54:27] Fetched weather data: {"temperature":19.7,"humidity":85,"pressure":1019,"wind_speed":2.06}
+[2024-06-20 02:54:28] Successfully pushed temperature to Databox
+[2024-06-20 02:54:28] Successfully pushed humidity to Databox
+[2024-06-20 02:54:28] Successfully pushed pressure to Databox
+[2024-06-20 02:54:28] Successfully pushed wind_speed to Databox
+[2024-06-20 02:54:28] Data successfully pushed to Databox
+[2024-06-20 02:54:28] Script ended
+[2024-06-20 02:55:38] Script started
+[2024-06-20 02:55:39] Fetched weather data: {"temperature":19.7,"humidity":85,"pressure":1019,"wind_speed":2.06}
+[2024-06-20 02:55:40] Successfully pushed temperature to Databox
+[2024-06-20 02:55:40] Successfully pushed humidity to Databox
+[2024-06-20 02:55:40] Successfully pushed pressure to Databox
+[2024-06-20 02:55:40] Successfully pushed wind_speed to Databox
+[2024-06-20 02:55:40] Data successfully pushed to Databox
+[2024-06-20 02:55:40] Script ended
+[2024-06-20 03:37:26] Failed to create metric Maribor Temperature.
+[2024-06-20 03:37:27] Failed to create metric Maribor Humidity.
+[2024-06-20 03:37:28] Failed to create metric Maribor Pressure.
+[2024-06-20 03:37:29] Failed to create metric Maribor Wind Speed.
+[2024-06-20 03:41:36] Attempting to create metric: {"key":"Maribor_temperature","name":"Maribor Temperature","type":"custom","data_type":"float"}
+[2024-06-20 03:41:37] Failed to create metric Maribor Temperature. Response status: 200
+[2024-06-20 03:41:37] Attempting to create metric: {"key":"Maribor_humidity","name":"Maribor Humidity","type":"custom","data_type":"float"}
+[2024-06-20 03:41:38] Failed to create metric Maribor Humidity. Response status: 200
+[2024-06-20 03:41:38] Attempting to create metric: {"key":"Maribor_pressure","name":"Maribor Pressure","type":"custom","data_type":"float"}
+[2024-06-20 03:41:40] Failed to create metric Maribor Pressure. Response status: 200
+[2024-06-20 03:41:40] Attempting to create metric: {"key":"Maribor_wind_speed","name":"Maribor Wind Speed","type":"custom","data_type":"float"}
+[2024-06-20 03:41:40] Failed to create metric Maribor Wind Speed. Response status: 200
+[2024-06-20 03:49:23] Metrics setup script started
+[2024-06-20 03:49:24] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-20 03:49:24] Error creating metric Maribor_temperature: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-20 03:49:24] Error creating metric Maribor_humidity: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-20 03:49:25] Error creating metric Maribor_pressure: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-20 03:49:25] Error creating metric Maribor_wind_speed: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-20 03:49:25] Metrics setup completed successfully
+[2024-06-20 03:49:25] Metrics setup script ended
+[2024-06-20 03:51:44] Script started
+[2024-06-20 03:51:44] Fetched weather data: {"Maribor_temperature":19.68,"Maribor_humidity":85,"Maribor_pressure":1020,"Maribor_wind_speed":2.06}
+[2024-06-20 03:51:45] Successfully pushed Maribor_temperature to Databox
+[2024-06-20 03:51:45] Successfully pushed Maribor_humidity to Databox
+[2024-06-20 03:51:46] Successfully pushed Maribor_pressure to Databox
+[2024-06-20 03:51:46] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-20 03:51:46] Data successfully pushed to Databox
+[2024-06-20 03:51:46] Script ended
+[2024-06-20 04:00:34] Successfully pushed metric_key to Databox
+[2024-06-20 04:01:36] Successfully pushed metric_key to Databox
+[2024-06-20 04:08:45] Successfully pushed metric_key to Databox
+[2024-06-20 04:10:32] Successfully pushed metric_key to Databox
+[2024-06-20 04:10:52] Successfully pushed metric_key to Databox
+[2024-06-20 04:12:37] Successfully pushed metric_key to Databox
+[2024-06-20 04:16:56] Successfully pushed metric_key to Databox
+[2024-06-20 23:26:20] Successfully pushed metric_key to Databox
+[2024-06-20 23:34:40] Script started
+[2024-06-20 23:34:41] Fetched weather data: {"Maribor_temperature":20.44,"Maribor_humidity":89,"Maribor_pressure":1018,"Maribor_wind_speed":1.54}
+[2024-06-20 23:34:42] Successfully pushed Maribor_temperature to Databox
+[2024-06-20 23:34:42] Successfully pushed Maribor_humidity to Databox
+[2024-06-20 23:34:43] Successfully pushed Maribor_pressure to Databox
+[2024-06-20 23:34:43] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-20 23:34:43] Data successfully pushed to Databox
+[2024-06-20 23:34:43] Script ended
+[2024-06-20 23:35:27] Script started
+[2024-06-20 23:35:28] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":0,"following":null}
+[2024-06-20 23:35:29] Successfully pushed public_repos to Databox
+[2024-06-20 23:35:29] Successfully pushed followers to Databox
+[2024-06-20 23:35:29] Successfully pushed stars to Databox
+[2024-06-20 23:35:30] Error pushing data to Databox: Client error: `POST https://push.databox.com/` resulted in a `400 Bad Request` response:
+{"status":"BAD_REQUEST","message":"HV000028: Unexpected exception during isValid call.","id":null}
+
+[2024-06-20 23:35:30] Script ended
+[2024-06-20 23:36:53] Script started
+[2024-06-20 23:36:53] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":0}
+[2024-06-20 23:36:54] Successfully pushed public_repos to Databox
+[2024-06-20 23:36:54] Successfully pushed followers to Databox
+[2024-06-20 23:36:55] Successfully pushed stars to Databox
+[2024-06-20 23:36:55] Data successfully pushed to Databox
+[2024-06-20 23:36:55] Script ended
+[2024-06-20 23:39:37] Successfully pushed metric_key to Databox
+[2024-06-20 23:44:01] Successfully pushed metric_key to Databox
+[2024-06-20 23:49:27] Script started
+[2024-06-20 23:49:28] Fetched weather data: {"Maribor_temperature":19.89,"Maribor_humidity":91,"Maribor_pressure":1018,"Maribor_wind_speed":0}
+[2024-06-20 23:49:29] Successfully pushed Maribor_temperature to Databox
+[2024-06-20 23:49:30] Successfully pushed Maribor_humidity to Databox
+[2024-06-20 23:49:30] Successfully pushed Maribor_pressure to Databox
+[2024-06-20 23:49:30] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-20 23:49:30] Data successfully pushed to Databox
+[2024-06-20 23:49:30] Script ended
+[2024-06-20 23:49:39] Successfully pushed metric_key to Databox
+[2024-06-21 14:59:31] Metrics setup script started
+[2024-06-21 14:59:34] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 14:59:34] Error creating metric github_public_repos: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 14:59:34] Error creating metric github_followers: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 14:59:34] Error creating metric github_stars: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 14:59:34] Metrics setup completed successfully
+[2024-06-21 14:59:34] Metrics setup script ended
+[2024-06-21 15:00:46] Script started
+[2024-06-21 15:00:47] Fetched GitHub data: {"github_public_repos":1,"github_followers":0,"github_stars":null,"github_open_issues":null}
+[2024-06-21 15:00:48] Successfully pushed github_public_repos to Databox
+[2024-06-21 15:00:48] Successfully pushed github_followers to Databox
+[2024-06-21 15:00:48] Error pushing data to Databox: Client error: `POST https://push.databox.com/` resulted in a `400 Bad Request` response:
+{"status":"BAD_REQUEST","message":"HV000028: Unexpected exception during isValid call.","id":null}
+
+[2024-06-21 15:00:48] Script ended
+[2024-06-21 15:01:43] Metrics setup script started
+[2024-06-21 15:01:44] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:01:44] Error creating metric github_public_repos: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:01:44] Error creating metric github_followers: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:01:45] Error creating metric github_stars: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:01:45] Metrics setup completed successfully
+[2024-06-21 15:01:45] Metrics setup script ended
+[2024-06-21 15:02:18] Script started
+[2024-06-21 15:02:19] Fetched GitHub data: {"github_public_repos":1,"github_followers":0,"github_stars":null}
+[2024-06-21 15:02:20] Successfully pushed github_public_repos to Databox
+[2024-06-21 15:02:20] Successfully pushed github_followers to Databox
+[2024-06-21 15:02:20] Error pushing data to Databox: Client error: `POST https://push.databox.com/` resulted in a `400 Bad Request` response:
+{"status":"BAD_REQUEST","message":"HV000028: Unexpected exception during isValid call.","id":null}
+
+[2024-06-21 15:02:20] Script ended
+[2024-06-21 15:13:07] Metrics setup script started
+[2024-06-21 15:13:08] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:13:09] Error creating metric github_public_repos: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:13:09] Error creating metric github_followers: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:13:09] Error creating metric github_stars: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:13:09] Error creating metric github_open_issues: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:13:09] Metrics setup completed successfully
+[2024-06-21 15:13:09] Metrics setup script ended
+[2024-06-21 15:13:15] Script started
+[2024-06-21 15:21:40] Metrics setup script started
+[2024-06-21 15:21:41] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:21:42] Error creating metric github_public_repos: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:21:42] Error creating metric github_followers: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:21:42] Error creating metric github_stars: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:21:42] Error creating metric github_open_issues: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 15:21:42] Metrics setup completed successfully
+[2024-06-21 15:21:42] Metrics setup script ended
+[2024-06-21 15:21:49] Script started
+[2024-06-21 15:21:51] Fetched GitHub data: {"github_public_repos":1,"github_followers":0,"github_stars":null,"github_open_issues":null}
+[2024-06-21 15:21:52] Successfully pushed github_public_repos to Databox
+[2024-06-21 15:21:52] Successfully pushed github_followers to Databox
+[2024-06-21 15:21:52] Error pushing data to Databox: Client error: `POST https://push.databox.com/` resulted in a `400 Bad Request` response:
+{"status":"BAD_REQUEST","message":"HV000028: Unexpected exception during isValid call.","id":null}
+
+[2024-06-21 15:21:52] Script ended
+[2024-06-21 17:28:42] Metrics setup script started
+[2024-06-21 17:28:44] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 17:28:44] Error creating metric vesnalebar_public_repos: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 17:28:44] Error creating metric vesnalebar_followers: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 17:28:45] Error creating metric databox-integration-challenge_issues_count: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 17:28:45] Metrics setup completed successfully
+[2024-06-21 17:28:45] Metrics setup script ended
+[2024-06-21 17:28:50] Script started
+[2024-06-21 17:28:50] Fetched GitHub data: []
+[2024-06-21 17:28:50] Data successfully pushed to Databox
+[2024-06-21 17:28:50] Script ended
+[2024-06-21 17:29:45] Script started
+[2024-06-21 17:29:45] Fetched GitHub data: []
+[2024-06-21 17:29:45] Data successfully pushed to Databox
+[2024-06-21 17:29:45] Script ended
+[2024-06-21 17:39:38] Script started
+[2024-06-21 17:39:38] Fetched GitHub data: []
+[2024-06-21 17:39:38] Data successfully pushed to Databox
+[2024-06-21 17:39:38] Script ended
+[2024-06-21 17:40:18] Script started
+[2024-06-21 17:40:19] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":0}
+[2024-06-21 17:40:21] Successfully pushed public_repos to Databox
+[2024-06-21 17:40:21] Successfully pushed followers to Databox
+[2024-06-21 17:40:21] Successfully pushed stars to Databox
+[2024-06-21 17:40:21] Data successfully pushed to Databox
+[2024-06-21 17:40:21] Script ended
+[2024-06-21 17:47:24] Script started
+[2024-06-21 17:48:59] Script started
+[2024-06-21 17:49:00] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":0}
+[2024-06-21 17:49:01] Successfully pushed public_repos to Databox
+[2024-06-21 17:49:01] Successfully pushed followers to Databox
+[2024-06-21 17:49:01] Successfully pushed stars to Databox
+[2024-06-21 17:49:01] Data successfully pushed to Databox
+[2024-06-21 17:49:01] Script ended
+[2024-06-21 20:48:17] Script started
+[2024-06-21 20:48:22] Fetched GitHub data: {"public_repos":1,"followers":0,"stars":0}
+[2024-06-21 20:48:24] Successfully pushed public_repos to Databox
+[2024-06-21 20:48:24] Successfully pushed followers to Databox
+[2024-06-21 20:48:24] Successfully pushed stars to Databox
+[2024-06-21 20:48:24] Data successfully pushed to Databox
+[2024-06-21 20:48:24] Script ended
+[2024-06-21 21:07:41] Metrics setup script started
+[2024-06-21 21:07:44] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 21:07:44] Error creating metric public_repos: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 21:07:44] Error creating metric followers: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 21:07:44] Error creating metric stars: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 21:07:44] Metrics setup completed successfully
+[2024-06-21 21:07:44] Metrics setup script ended
+[2024-06-21 21:07:47] Script started
+[2024-06-21 21:07:48] Fetched GitHub data: {"public_repos":224,"followers":23813,"stars":391704}
+[2024-06-21 21:07:49] Successfully pushed public_repos to Databox
+[2024-06-21 21:07:49] Successfully pushed followers to Databox
+[2024-06-21 21:07:49] Successfully pushed stars to Databox
+[2024-06-21 21:07:49] Data successfully pushed to Databox
+[2024-06-21 21:07:49] Script ended
+[2024-06-21 21:27:49] Script started
+[2024-06-21 21:27:50] Fetched weather data: {"Maribor_temp":23.25,"Maribor_humidity":70,"Maribor_pressure":1011,"Maribor_wind_speed":1.03}
+[2024-06-21 21:27:51] Successfully pushed Maribor_temp to Databox
+[2024-06-21 21:27:51] Successfully pushed Maribor_humidity to Databox
+[2024-06-21 21:27:52] Successfully pushed Maribor_pressure to Databox
+[2024-06-21 21:27:52] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-21 21:27:52] Data successfully pushed to Databox
+[2024-06-21 21:27:52] Script ended
+[2024-06-21 22:03:40] Metrics setup script started
+[2024-06-21 22:03:42] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 22:03:42] Error creating metric freeCodeCamp_public_repos: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 22:03:42] Error creating metric freeCodeCamp_followers: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 22:03:42] Error creating metric freeCodeCamp_stars: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-21 22:03:42] Metrics setup completed successfully
+[2024-06-21 22:03:42] Metrics setup script ended
+[2024-06-21 22:03:48] Script started
+[2024-06-21 22:03:48] Fetched weather data: {"Maribor_temp":23.47,"Maribor_humidity":63,"Maribor_pressure":1011,"Maribor_wind_speed":1.03}
+[2024-06-21 22:03:49] Successfully pushed Maribor_temp to Databox
+[2024-06-21 22:03:49] Successfully pushed Maribor_humidity to Databox
+[2024-06-21 22:03:49] Successfully pushed Maribor_pressure to Databox
+[2024-06-21 22:03:50] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-21 22:03:50] Data successfully pushed to Databox
+[2024-06-21 22:03:50] Script ended
+[2024-06-21 22:04:00] Script started
+[2024-06-21 22:04:00] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23813,"freeCodeCamp_stars":391706}
+[2024-06-21 22:04:01] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-21 22:04:02] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-21 22:04:02] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-21 22:04:02] Data successfully pushed to Databox
+[2024-06-21 22:04:02] Script ended
+[2024-06-21 22:09:25] Successfully pushed metric_key to Databox
+[2024-06-21 22:15:16] Successfully pushed metric_key to Databox

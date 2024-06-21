@@ -1,0 +1,20 @@
+{
+  "username": "freeCodeCamp",
+  "repository": "freeCodeCamp",
+  "base_url": "https://api.github.com",
+  "metrics": [
+      {
+          "key": "public_repos",
+          "path": "public_repos"
+      },
+      {
+          "key": "followers",
+          "path": "followers"
+      },
+      {
+          "key": "stars",
+          "type": "count",
+          "path": "stargazers_count"
+      }
+  ]
+}

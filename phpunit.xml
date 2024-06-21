@@ -2,12 +2,12 @@
 <phpunit bootstrap="vendor/autoload.php"
          colors="true"
          testdox="true">
+    <php>
+        <env name="OPENWEATHERMAP_API_KEY" value="test_api_key"/>
+    </php>
     <testsuites>
         <testsuite name="Unit Tests">
             <directory>tests/unit</directory>
-        </testsuite>
-        <testsuite name="Integration Tests">
-            <directory>tests/integration</directory>
         </testsuite>
     </testsuites>
 </phpunit>

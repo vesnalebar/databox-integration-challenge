@@ -4,36 +4,66 @@ use PHPUnit\Framework\TestCase;
 use Vesna\DataboxIntegrationChallenge\OpenWeatherMap;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
 
-class OpenWeatherMapTest extends TestCase {
-    protected function setUp(): void {
-        // Set environment variable for the test
+class OpenWeatherMapTest extends TestCase
+{
+    private $clientMock;
+    private $openWeatherMap;
+
+    protected function setUp(): void
+    {
+        // Mock the Guzzle Client
+        $this->clientMock = $this->createMock(Client::class);
+
+        // Replace the client in OpenWeatherMap with the mock
+        $this->openWeatherMap = new OpenWeatherMap();
+        $reflection = new \ReflectionClass($this->openWeatherMap);
+        $property = $reflection->getProperty('client');
+        $property->setAccessible(true);
+        $property->setValue($this->openWeatherMap, $this->clientMock);
+
+        // Set the environment variable for the test
         $_ENV['OPENWEATHERMAP_API_KEY'] = 'test_api_key';
     }
 
-    public function testFetchDataStructure() {
-        // Mock the Guzzle client
-        $mock = new MockHandler([
-            new Response(200, [], json_encode([
-                'main' => [
-                    'temp' => 15.0,
-                    'humidity' => 80,
-                    'pressure' => 1012
+    public function testFetchData()
+    {
+        $weatherResponse = new Response(200, [], json_encode([
+            'main' => [
+                'temp' => 15,
+                'humidity' => 60,
+                'pressure' => 1012
+            ],
+            'wind' => [
+                'speed' => 5.5
+            ]
+        ]));
+
+        // Set up the expectations for the Client
+        $this->clientMock->expects($this->once())
+            ->method('request')
+            ->with(
+                'GET',
+                'https://api.openweathermap.org/data/2.5/weather',
+                [
+                    'query' => [
+                        'q' => 'Maribor',
+                        'appid' => 'test_api_key',
+                        'units' => 'metric'
+                    ]
                 ]
-            ]))
-        ]);
-        $handlerStack = HandlerStack::create($mock);
-        $client = new Client(['handler' => $handlerStack]);
+            )
+            ->willReturn($weatherResponse);
 
-        // Pass the mocked client to OpenWeatherMap
-        $openWeatherMap = new OpenWeatherMap($client);
-        $data = $openWeatherMap->fetchData('London');
+        $data = $this->openWeatherMap->fetchData();
 
-        $this->assertArrayHasKey('main', $data);
-        $this->assertArrayHasKey('temp', $data['main']);
-        $this->assertArrayHasKey('humidity', $data['main']);
-        $this->assertArrayHasKey('pressure', $data['main']);
+        $expected = [
+            'Maribor_temp' => 15,
+            'Maribor_humidity' => 60,
+            'Maribor_pressure' => 1012,
+            'Maribor_wind_speed' => 5.5
+        ];
+
+        $this->assertEquals($expected, $data);
     }
 }

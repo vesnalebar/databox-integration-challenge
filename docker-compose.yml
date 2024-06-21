@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  weather:
+    build: .
+    environment:
+      - OPENWEATHERMAP_API_KEY=${OPENWEATHERMAP_API_KEY}
+      - DATABOX_TOKEN=${DATABOX_TOKEN}
+    command: ["php", "src/index.php", "weather"]
+
+  github:
+    build: .
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - DATABOX_TOKEN=${DATABOX_TOKEN}
+    command: ["php", "src/index.php", "github"]

@@ -1,0 +1,10 @@
+{
+    "base_url": "https://api.openweathermap.org/data/2.5/weather",
+    "city": "Maribor",
+    "metrics": {
+        "temp": "main.temp",
+        "humidity": "main.humidity",
+        "pressure": "main.pressure",
+        "wind_speed": "wind.speed"
+    }
+}

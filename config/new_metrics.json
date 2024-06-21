@@ -1,0 +1,22 @@
+{
+    "metrics": [
+        {
+            "key": "freeCodeCamp_public_repos",
+            "name": "freeCodeCamp Public Repos",
+            "type": "custom",
+            "data_type": "integer"
+        },
+        {
+            "key": "freeCodeCamp_followers",
+            "name": "freeCodeCamp Followers",
+            "type": "custom",
+            "data_type": "integer"
+        },
+        {
+            "key": "freeCodeCamp_stars",
+            "name": "freeCodeCamp Stars",
+            "type": "custom",
+            "data_type": "integer"
+        }
+    ]
+}
