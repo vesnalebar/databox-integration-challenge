@@ -1,40 +1,58 @@
 {
     "metrics": [
-        {
-            "key": "Beltinci_temp",
-            "name": "Beltinci Temperature",
-            "type": "total",
-            "data_type": "float",
-            "unit": "°C",
-            "description": "Current temperature in Beltinci",
-            "aggregation": "latest"
-        },
-        {
-            "key": "Beltinci_humidity",
-            "name": "Beltinci Humidity",
-            "type": "total",
-            "data_type": "float",
-            "unit": "%",
-            "description": "Current humidity in Beltinci",
-            "aggregation": "latest"
-        },
-        {
-            "key": "Beltinci_pressure",
-            "name": "Beltinci Pressure",
-            "type": "total",
-            "data_type": "float",
-            "unit": "hPa",
-            "description": "Current pressure in Beltinci",
-            "aggregation": "latest"
-        },
-        {
-            "key": "Beltinci_wind_speed",
-            "name": "Beltinci Wind Speed",
-            "type": "total",
-            "data_type": "float",
-            "unit": "m/s",
-            "description": "Current wind speed in Beltinci",
-            "aggregation": "latest"
-        }
+      {
+        "key": "freeCodeCamp_public_repos",
+        "name": "freeCodeCamp Public Repos",
+        "type": "total",
+        "data_type": "integer",
+        "aggregation": "latest"
+      },
+      {
+        "key": "freeCodeCamp_followers",
+        "name": "freeCodeCamp Followers",
+        "type": "total",
+        "data_type": "integer",
+        "aggregation": "latest"
+      },
+      {
+        "key": "freeCodeCamp_stars",
+        "name": "freeCodeCamp Stars",
+        "type": "total",
+        "data_type": "integer",
+        "aggregation": "latest"
+      },
+      {
+        "key": "Beltinci_temp",
+        "name": "Beltinci Temperature",
+        "type": "total",
+        "data_type": "float",
+        "unit": "°C",
+        "aggregation": "latest"
+      },
+      {
+        "key": "Beltinci_humidity",
+        "name": "Beltinci Humidity",
+        "type": "total",
+        "data_type": "integer",
+        "unit": "%",
+        "aggregation": "latest"
+      },
+      {
+        "key": "Beltinci_pressure",
+        "name": "Beltinci Pressure",
+        "type": "total",
+        "data_type": "integer",
+        "unit": "hPa",
+        "aggregation": "latest"
+      },
+      {
+        "key": "Beltinci_wind_speed",
+        "name": "Beltinci Wind Speed",
+        "type": "total",
+        "data_type": "float",
+        "unit": "m/s",
+        "aggregation": "latest"
+      }
     ]
-}
+  }
+  
