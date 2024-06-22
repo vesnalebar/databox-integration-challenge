@@ -911,3 +911,65 @@
 [2024-06-22 09:38:54] Successfully pushed metric_key to Databox
 [2024-06-22 09:38:54] Fetched raw weather data: {"main":{"temp":15,"humidity":60,"pressure":1012},"wind":{"speed":5.5}}
 [2024-06-22 09:38:54] Processed weather data to send: {"Beltinci_temp":15,"Beltinci_humidity":60,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.5}
+[2024-06-22 11:39:32] Metrics setup script started
+[2024-06-22 11:39:34] Metric created: Beltinci_temp
+[2024-06-22 11:39:35] Metric created: Beltinci_humidity
+[2024-06-22 11:39:35] Metric created: Beltinci_pressure
+[2024-06-22 11:39:35] Metric created: Beltinci_wind_speed
+[2024-06-22 11:39:35] Metrics setup completed successfully
+[2024-06-22 11:39:35] Metrics setup script ended
+[2024-06-22 11:44:22] Metrics setup script started
+[2024-06-22 11:44:24] Metric created: Beltinci_temp
+[2024-06-22 11:44:24] Metric created: Beltinci_humidity
+[2024-06-22 11:44:24] Metric created: Beltinci_pressure
+[2024-06-22 11:44:24] Metric created: Beltinci_wind_speed
+[2024-06-22 11:44:24] Metrics setup completed successfully
+[2024-06-22 11:44:24] Metrics setup script ended
+[2024-06-22 11:50:33] Metrics setup script started
+[2024-06-22 11:50:36] Metric created: Beltinci_temp
+[2024-06-22 11:50:36] Metric created: Beltinci_humidity
+[2024-06-22 11:50:36] Metric created: Beltinci_pressure
+[2024-06-22 11:50:37] Metric created: Beltinci_wind_speed
+[2024-06-22 11:50:37] Metrics setup completed successfully
+[2024-06-22 11:50:37] Metrics setup script ended
+[2024-06-22 11:51:06] Script started
+[2024-06-22 11:51:06] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23824,"freeCodeCamp_stars":391752}
+[2024-06-22 11:51:07] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-22 11:51:07] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-22 11:51:07] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-22 11:51:07] Data successfully pushed to Databox
+[2024-06-22 11:51:07] Script ended
+[2024-06-22 11:52:34] Script started
+[2024-06-22 11:52:34] Script started
+[2024-06-22 11:52:34] Fetched raw weather data: {"coord":{"lon":16.2406,"lat":46.6053},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":24.89,"feels_like":24.71,"temp_min":24.18,"temp_max":26.16,"pressure":1012,"humidity":49,"sea_level":1012,"grnd_level":987},"visibility":10000,"wind":{"speed":5.76,"deg":46,"gust":6.28},"clouds":{"all":28},"dt":1719057154,"sys":{"type":2,"id":2030172,"country":"SI","sunrise":1719025316,"sunset":1719082330},"timezone":7200,"id":3204303,"name":"Beltinci","cod":200}
+[2024-06-22 11:52:34] Processed weather data to send: {"Beltinci_temp":24.89,"Beltinci_humidity":49,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.76}
+[2024-06-22 11:52:34] Fetched weather data: {"Beltinci_temp":24.89,"Beltinci_humidity":49,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.76}
+[2024-06-22 11:52:35] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23824,"freeCodeCamp_stars":391752}
+[2024-06-22 11:52:35] Successfully pushed Beltinci_temp to Databox
+[2024-06-22 11:52:35] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-22 11:52:35] Successfully pushed Beltinci_humidity to Databox
+[2024-06-22 11:52:36] Successfully pushed Beltinci_pressure to Databox
+[2024-06-22 11:52:36] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-22 11:52:36] Metrics setup script started
+[2024-06-22 11:52:36] Successfully pushed Beltinci_wind_speed to Databox
+[2024-06-22 11:52:36] Data successfully pushed to Databox
+[2024-06-22 11:52:36] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-22 11:52:36] Script ended
+[2024-06-22 11:52:36] Data successfully pushed to Databox
+[2024-06-22 11:52:36] Script ended
+[2024-06-22 11:52:38] Metric created: Beltinci_temp
+[2024-06-22 11:52:39] Metric created: Beltinci_humidity
+[2024-06-22 11:52:39] Metric created: Beltinci_pressure
+[2024-06-22 11:52:39] Metric created: Beltinci_wind_speed
+[2024-06-22 11:52:39] Metrics setup completed successfully
+[2024-06-22 11:52:39] Metrics setup script ended
+[2024-06-22 11:52:43] Successfully pushed metric_key to Databox
+[2024-06-22 11:52:44] Fetched raw weather data: {"main":{"temp":15,"humidity":60,"pressure":1012},"wind":{"speed":5.5}}
+[2024-06-22 11:52:44] Processed weather data to send: {"Beltinci_temp":15,"Beltinci_humidity":60,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.5}
+[2024-06-22 11:53:17] Metrics setup script started
+[2024-06-22 11:53:18] Metric created: Beltinci_temp
+[2024-06-22 11:53:18] Metric created: Beltinci_humidity
+[2024-06-22 11:53:19] Metric created: Beltinci_pressure
+[2024-06-22 11:53:19] Metric created: Beltinci_wind_speed
+[2024-06-22 11:53:19] Metrics setup completed successfully
+[2024-06-22 11:53:19] Metrics setup script ended

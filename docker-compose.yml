@@ -30,3 +30,13 @@ services:
       - ./logs:/app/logs
     working_dir: /app
     command: ["./vendor/bin/phpunit", "--testdox", "tests/unit"]
+
+  create-metrics:
+    build: .
+    environment:
+      - DATABOX_TOKEN=${DATABOX_TOKEN}
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    working_dir: /app
+    command: ["php", "src/create_metrics.php"]
