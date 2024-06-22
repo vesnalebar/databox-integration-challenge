@@ -656,3 +656,258 @@
 [2024-06-21 22:04:02] Script ended
 [2024-06-21 22:09:25] Successfully pushed metric_key to Databox
 [2024-06-21 22:15:16] Successfully pushed metric_key to Databox
+[2024-06-21 23:02:46] Successfully pushed metric_key to Databox
+[2024-06-21 23:03:05] Successfully pushed metric_key to Databox
+[2024-06-21 23:22:27] Successfully pushed metric_key to Databox
+[2024-06-21 23:23:10] Script started
+[2024-06-21 23:23:10] Fetched weather data: {"Maribor_temp":22.35,"Maribor_humidity":69,"Maribor_pressure":1011,"Maribor_wind_speed":3.09}
+[2024-06-21 23:23:11] Successfully pushed Maribor_temp to Databox
+[2024-06-21 23:23:11] Successfully pushed Maribor_humidity to Databox
+[2024-06-21 23:23:11] Successfully pushed Maribor_pressure to Databox
+[2024-06-21 23:23:11] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-21 23:23:11] Data successfully pushed to Databox
+[2024-06-21 23:23:11] Script ended
+[2024-06-21 23:23:22] Script started
+[2024-06-21 23:23:23] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23814,"freeCodeCamp_stars":391706}
+[2024-06-21 23:23:23] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-21 23:23:23] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-21 23:23:24] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-21 23:23:24] Data successfully pushed to Databox
+[2024-06-21 23:23:24] Script ended
+[2024-06-22 00:27:19] Script started
+[2024-06-22 00:27:19] Fetched weather data: {"Maribor_temp":20.88,"Maribor_humidity":76,"Maribor_pressure":1010,"Maribor_wind_speed":0}
+[2024-06-22 00:27:20] Successfully pushed Maribor_temp to Databox
+[2024-06-22 00:27:21] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 00:27:21] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 00:27:21] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 00:27:21] Data successfully pushed to Databox
+[2024-06-22 00:27:21] Script ended
+[2024-06-22 00:31:30] Script started
+[2024-06-22 00:31:30] Script started
+[2024-06-22 00:31:30] Fetched weather data: {"Maribor_temp":20.88,"Maribor_humidity":76,"Maribor_pressure":1010,"Maribor_wind_speed":0}
+[2024-06-22 00:31:30] Successfully pushed Maribor_temp to Databox
+[2024-06-22 00:31:31] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23817,"freeCodeCamp_stars":391710}
+[2024-06-22 00:31:31] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 00:31:31] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 00:31:31] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 00:31:31] Data successfully pushed to Databox
+[2024-06-22 00:31:31] Script ended
+[2024-06-22 00:31:31] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-22 00:31:31] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-22 00:31:31] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-22 00:31:31] Data successfully pushed to Databox
+[2024-06-22 00:31:31] Script ended
+[2024-06-22 00:31:48] Successfully pushed metric_key to Databox
+[2024-06-22 00:41:14] Script started
+[2024-06-22 00:41:14] Fetched weather data: {"Maribor_temp":20.88,"Maribor_humidity":76,"Maribor_pressure":1010,"Maribor_wind_speed":0}
+[2024-06-22 00:41:15] Successfully pushed Maribor_temp to Databox
+[2024-06-22 00:41:15] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 00:41:15] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 00:41:15] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 00:41:15] Data successfully pushed to Databox
+[2024-06-22 00:41:15] Script ended
+[2024-06-22 00:50:19] Script started
+[2024-06-22 00:50:20] Fetched weather data: {"Maribor_temp":20.84,"Maribor_humidity":75,"Maribor_pressure":1010,"Maribor_wind_speed":1.03}
+[2024-06-22 00:50:21] Successfully pushed Maribor_temp to Databox
+[2024-06-22 00:50:21] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 00:50:21] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 00:50:22] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 00:50:22] Data successfully pushed to Databox
+[2024-06-22 00:50:22] Script ended
+[2024-06-22 00:55:21] Script started
+[2024-06-22 00:55:22] Fetched raw weather data: {"coord":{"lon":15.6467,"lat":46.5547},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":20.88,"feels_like":20.98,"temp_min":19.51,"temp_max":22.94,"pressure":1010,"humidity":75},"visibility":10000,"wind":{"speed":1.03,"deg":130},"clouds":{"all":60},"dt":1719017107,"sys":{"type":2,"id":18640,"country":"SI","sunrise":1719025472,"sunset":1719082460},"timezone":7200,"id":3195506,"name":"Maribor","cod":200}
+[2024-06-22 00:55:22] Processed weather data to send: {"Maribor_temp":20.88,"Maribor_humidity":75,"Maribor_pressure":1010,"Maribor_wind_speed":1.03}
+[2024-06-22 00:55:22] Fetched weather data: {"Maribor_temp":20.88,"Maribor_humidity":75,"Maribor_pressure":1010,"Maribor_wind_speed":1.03}
+[2024-06-22 01:03:11] Script started
+[2024-06-22 01:03:12] Fetched raw weather data: {"coord":{"lon":15.6467,"lat":46.5547},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":20.56,"feels_like":20.66,"temp_min":18.96,"temp_max":22.94,"pressure":1010,"humidity":76},"visibility":10000,"wind":{"speed":1.03,"deg":130},"clouds":{"all":60},"dt":1719018063,"sys":{"type":2,"id":18640,"country":"SI","sunrise":1719025472,"sunset":1719082460},"timezone":7200,"id":3195506,"name":"Maribor","cod":200}
+[2024-06-22 01:03:12] Processed weather data to send: {"Maribor_temp":20.56,"Maribor_humidity":76,"Maribor_pressure":1010,"Maribor_wind_speed":1.03}
+[2024-06-22 01:03:12] Fetched weather data: {"Maribor_temp":20.56,"Maribor_humidity":76,"Maribor_pressure":1010,"Maribor_wind_speed":1.03}
+[2024-06-22 01:06:44] Script started
+[2024-06-22 01:06:45] Fetched raw weather data: {"coord":{"lon":15.6467,"lat":46.5547},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":20.76,"feels_like":20.85,"temp_min":18.96,"temp_max":22.94,"pressure":1010,"humidity":75},"visibility":10000,"wind":{"speed":1.03,"deg":130},"clouds":{"all":60},"dt":1719017910,"sys":{"type":2,"id":18640,"country":"SI","sunrise":1719025472,"sunset":1719082460},"timezone":7200,"id":3195506,"name":"Maribor","cod":200}
+[2024-06-22 01:06:45] Processed weather data to send: {"Maribor_temp":20.76,"Maribor_humidity":75,"Maribor_pressure":1010,"Maribor_wind_speed":1.03}
+[2024-06-22 01:06:45] Fetched weather data: {"Maribor_temp":20.76,"Maribor_humidity":75,"Maribor_pressure":1010,"Maribor_wind_speed":1.03}
+[2024-06-22 01:06:46] Successfully pushed Maribor_temp to Databox
+[2024-06-22 01:06:46] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 01:06:46] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 01:06:47] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 01:06:47] Data successfully pushed to Databox
+[2024-06-22 01:06:47] Script ended
+[2024-06-22 08:42:00] Metrics setup script started
+[2024-06-22 08:42:01] Error fetching existing metrics: Client error: `GET https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-22 08:42:02] Error creating metric Maribor_temp: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-22 08:42:02] Error creating metric Maribor_humidity: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-22 08:42:02] Error creating metric Maribor_pressure: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-22 08:42:02] Error creating metric Maribor_wind_speed: Client error: `POST https://push.databox.com/metrics` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Page not found | Databox</title>
+		<link rel= (truncated...)
+
+[2024-06-22 08:42:02] Metrics setup completed successfully
+[2024-06-22 08:42:02] Metrics setup script ended
+[2024-06-22 08:46:36] Metrics setup script started
+[2024-06-22 08:47:58] Metrics setup script started
+[2024-06-22 08:48:01] Error: Expected array, got NULL
+[2024-06-22 08:48:01] Metric created: Maribor_temp
+[2024-06-22 08:48:01] Metric created: Maribor_humidity
+[2024-06-22 08:48:01] Metric created: Maribor_pressure
+[2024-06-22 08:48:02] Metric created: Maribor_wind_speed
+[2024-06-22 08:48:02] Metrics setup completed successfully
+[2024-06-22 08:48:02] Metrics setup script ended
+[2024-06-22 08:56:18] Metrics setup script started
+[2024-06-22 08:56:20] Metric created: Maribor_temp
+[2024-06-22 08:56:20] Metric created: Maribor_humidity
+[2024-06-22 08:56:20] Metric created: Maribor_pressure
+[2024-06-22 08:56:20] Metric created: Maribor_wind_speed
+[2024-06-22 08:56:20] Metrics setup completed successfully
+[2024-06-22 08:56:20] Metrics setup script ended
+[2024-06-22 09:01:36] Metrics setup script started
+[2024-06-22 09:01:37] Metric created: Maribor_temp
+[2024-06-22 09:01:37] Metric created: Maribor_humidity
+[2024-06-22 09:01:37] Metric created: Maribor_pressure
+[2024-06-22 09:01:38] Metric created: Maribor_wind_speed
+[2024-06-22 09:01:38] Metrics setup completed successfully
+[2024-06-22 09:01:38] Metrics setup script ended
+[2024-06-22 09:02:19] Script started
+[2024-06-22 09:02:19] Fetched raw weather data: {"coord":{"lon":15.6467,"lat":46.5547},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":23.19,"feels_like":23.24,"temp_min":22.46,"temp_max":25.15,"pressure":1013,"humidity":64},"visibility":10000,"wind":{"speed":3.6,"deg":60},"clouds":{"all":40},"dt":1719046365,"sys":{"type":1,"id":6825,"country":"SI","sunrise":1719025472,"sunset":1719082460},"timezone":7200,"id":3195506,"name":"Maribor","cod":200}
+[2024-06-22 09:02:19] Processed weather data to send: {"Maribor_temp":23.19,"Maribor_humidity":64,"Maribor_pressure":1013,"Maribor_wind_speed":3.6}
+[2024-06-22 09:02:19] Fetched weather data: {"Maribor_temp":23.19,"Maribor_humidity":64,"Maribor_pressure":1013,"Maribor_wind_speed":3.6}
+[2024-06-22 09:02:20] Successfully pushed Maribor_temp to Databox
+[2024-06-22 09:02:20] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 09:02:21] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 09:02:21] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 09:02:21] Data successfully pushed to Databox
+[2024-06-22 09:02:21] Script ended
+[2024-06-22 09:07:55] Metrics setup script started
+[2024-06-22 09:07:58] Metric created: Beltinci_temp
+[2024-06-22 09:07:58] Metric created: Beltinci_humidity
+[2024-06-22 09:07:58] Metric created: Beltinci_pressure
+[2024-06-22 09:07:58] Metric created: Beltinci_wind_speed
+[2024-06-22 09:07:58] Metrics setup completed successfully
+[2024-06-22 09:07:58] Metrics setup script ended
+[2024-06-22 09:08:03] Script started
+[2024-06-22 09:08:04] Fetched raw weather data: {"coord":{"lon":16.2406,"lat":46.6053},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":24.04,"feels_like":24.09,"temp_min":23.07,"temp_max":24.36,"pressure":1013,"humidity":61,"sea_level":1013,"grnd_level":988},"visibility":10000,"wind":{"speed":6.42,"deg":47,"gust":7.9},"clouds":{"all":4},"dt":1719047283,"sys":{"type":2,"id":2030172,"country":"SI","sunrise":1719025316,"sunset":1719082330},"timezone":7200,"id":3204303,"name":"Beltinci","cod":200}
+[2024-06-22 09:08:04] Processed weather data to send: {"Beltinci_temp":24.04,"Beltinci_humidity":61,"Beltinci_pressure":1013,"Beltinci_wind_speed":6.42}
+[2024-06-22 09:08:04] Fetched weather data: {"Beltinci_temp":24.04,"Beltinci_humidity":61,"Beltinci_pressure":1013,"Beltinci_wind_speed":6.42}
+[2024-06-22 09:08:04] Successfully pushed Beltinci_temp to Databox
+[2024-06-22 09:08:05] Successfully pushed Beltinci_humidity to Databox
+[2024-06-22 09:08:05] Successfully pushed Beltinci_pressure to Databox
+[2024-06-22 09:08:05] Successfully pushed Beltinci_wind_speed to Databox
+[2024-06-22 09:08:05] Data successfully pushed to Databox
+[2024-06-22 09:08:05] Script ended
+[2024-06-22 09:09:17] Script started
+[2024-06-22 09:09:17] Fetched raw weather data: {"coord":{"lon":16.2406,"lat":46.6053},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":24.04,"feels_like":24.09,"temp_min":23.07,"temp_max":24.36,"pressure":1013,"humidity":61,"sea_level":1013,"grnd_level":988},"visibility":10000,"wind":{"speed":6.42,"deg":47,"gust":7.9},"clouds":{"all":4},"dt":1719047283,"sys":{"type":2,"id":2030172,"country":"SI","sunrise":1719025316,"sunset":1719082330},"timezone":7200,"id":3204303,"name":"Beltinci","cod":200}
+[2024-06-22 09:09:17] Processed weather data to send: {"Beltinci_temp":24.04,"Beltinci_humidity":61,"Beltinci_pressure":1013,"Beltinci_wind_speed":6.42}
+[2024-06-22 09:09:17] Fetched weather data: {"Beltinci_temp":24.04,"Beltinci_humidity":61,"Beltinci_pressure":1013,"Beltinci_wind_speed":6.42}
+[2024-06-22 09:09:18] Successfully pushed Beltinci_temp to Databox
+[2024-06-22 09:09:18] Successfully pushed Beltinci_humidity to Databox
+[2024-06-22 09:09:19] Successfully pushed Beltinci_pressure to Databox
+[2024-06-22 09:09:19] Successfully pushed Beltinci_wind_speed to Databox
+[2024-06-22 09:09:19] Data successfully pushed to Databox
+[2024-06-22 09:09:19] Script ended
+[2024-06-22 09:24:23] Successfully pushed metric_key to Databox
+[2024-06-22 09:27:49] Successfully pushed metric_key to Databox
+[2024-06-22 09:27:49] Fetched raw weather data: {"main":{"temp":15,"humidity":60,"pressure":1012},"wind":{"speed":5.5}}
+[2024-06-22 09:27:49] Processed weather data to send: {"Beltinci_temp":15,"Beltinci_humidity":60,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.5}
+[2024-06-22 09:30:24] Script started
+[2024-06-22 09:30:24] Script started
+[2024-06-22 09:30:24] Fetched weather data: {"Maribor_temp":23.99,"Maribor_humidity":61,"Maribor_pressure":1013,"Maribor_wind_speed":3.6}
+[2024-06-22 09:30:25] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23821,"freeCodeCamp_stars":391746}
+[2024-06-22 09:30:25] Successfully pushed Maribor_temp to Databox
+[2024-06-22 09:30:25] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 09:30:25] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-22 09:30:25] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 09:30:25] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-22 09:30:26] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 09:30:26] Data successfully pushed to Databox
+[2024-06-22 09:30:26] Script ended
+[2024-06-22 09:30:26] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-22 09:30:26] Data successfully pushed to Databox
+[2024-06-22 09:30:26] Script ended
+[2024-06-22 09:30:31] Successfully pushed metric_key to Databox
+[2024-06-22 09:30:31] Fetched raw weather data: {"main":{"temp":15,"humidity":60,"pressure":1012},"wind":{"speed":5.5}}
+[2024-06-22 09:30:31] Processed weather data to send: {"Beltinci_temp":15,"Beltinci_humidity":60,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.5}
+[2024-06-22 09:30:35] Script started
+[2024-06-22 09:30:35] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23821,"freeCodeCamp_stars":391746}
+[2024-06-22 09:30:35] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-22 09:30:36] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-22 09:30:36] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-22 09:30:36] Data successfully pushed to Databox
+[2024-06-22 09:30:36] Script ended
+[2024-06-22 09:30:50] Script started
+[2024-06-22 09:30:50] Fetched weather data: {"Maribor_temp":23.99,"Maribor_humidity":61,"Maribor_pressure":1013,"Maribor_wind_speed":3.6}
+[2024-06-22 09:30:50] Successfully pushed Maribor_temp to Databox
+[2024-06-22 09:30:51] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 09:30:51] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 09:30:51] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 09:30:51] Data successfully pushed to Databox
+[2024-06-22 09:30:51] Script ended
+[2024-06-22 09:33:01] Successfully pushed metric_key to Databox
+[2024-06-22 09:33:01] Fetched raw weather data: {"main":{"temp":15,"humidity":60,"pressure":1012},"wind":{"speed":5.5}}
+[2024-06-22 09:33:01] Processed weather data to send: {"Beltinci_temp":15,"Beltinci_humidity":60,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.5}
+[2024-06-22 09:38:03] Script started
+[2024-06-22 09:38:03] Script started
+[2024-06-22 09:38:04] Fetched weather data: {"Maribor_temp":23.79,"Maribor_humidity":60,"Maribor_pressure":1013,"Maribor_wind_speed":3.6}
+[2024-06-22 09:38:04] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23821,"freeCodeCamp_stars":391747}
+[2024-06-22 09:38:05] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-22 09:38:05] Successfully pushed Maribor_temp to Databox
+[2024-06-22 09:38:05] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-22 09:38:05] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 09:38:05] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-22 09:38:05] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 09:38:05] Data successfully pushed to Databox
+[2024-06-22 09:38:05] Script ended
+[2024-06-22 09:38:05] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 09:38:05] Data successfully pushed to Databox
+[2024-06-22 09:38:05] Script ended
+[2024-06-22 09:38:12] Successfully pushed metric_key to Databox
+[2024-06-22 09:38:12] Fetched raw weather data: {"main":{"temp":15,"humidity":60,"pressure":1012},"wind":{"speed":5.5}}
+[2024-06-22 09:38:12] Processed weather data to send: {"Beltinci_temp":15,"Beltinci_humidity":60,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.5}
+[2024-06-22 09:38:15] Script started
+[2024-06-22 09:38:15] Fetched weather data: {"Maribor_temp":23.79,"Maribor_humidity":60,"Maribor_pressure":1013,"Maribor_wind_speed":3.6}
+[2024-06-22 09:38:16] Successfully pushed Maribor_temp to Databox
+[2024-06-22 09:38:16] Successfully pushed Maribor_humidity to Databox
+[2024-06-22 09:38:16] Successfully pushed Maribor_pressure to Databox
+[2024-06-22 09:38:16] Successfully pushed Maribor_wind_speed to Databox
+[2024-06-22 09:38:16] Data successfully pushed to Databox
+[2024-06-22 09:38:16] Script ended
+[2024-06-22 09:38:34] Script started
+[2024-06-22 09:38:35] Fetched GitHub data: {"freeCodeCamp_public_repos":224,"freeCodeCamp_followers":23821,"freeCodeCamp_stars":391747}
+[2024-06-22 09:38:35] Successfully pushed freeCodeCamp_public_repos to Databox
+[2024-06-22 09:38:35] Successfully pushed freeCodeCamp_followers to Databox
+[2024-06-22 09:38:35] Successfully pushed freeCodeCamp_stars to Databox
+[2024-06-22 09:38:35] Data successfully pushed to Databox
+[2024-06-22 09:38:35] Script ended
+[2024-06-22 09:38:54] Successfully pushed metric_key to Databox
+[2024-06-22 09:38:54] Fetched raw weather data: {"main":{"temp":15,"humidity":60,"pressure":1012},"wind":{"speed":5.5}}
+[2024-06-22 09:38:54] Processed weather data to send: {"Beltinci_temp":15,"Beltinci_humidity":60,"Beltinci_pressure":1012,"Beltinci_wind_speed":5.5}

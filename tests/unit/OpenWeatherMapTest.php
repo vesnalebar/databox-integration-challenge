@@ -47,7 +47,7 @@ class OpenWeatherMapTest extends TestCase
                 'https://api.openweathermap.org/data/2.5/weather',
                 [
                     'query' => [
-                        'q' => 'Maribor',
+                        'q' => 'Beltinci',
                         'appid' => 'test_api_key',
                         'units' => 'metric'
                     ]
@@ -58,10 +58,10 @@ class OpenWeatherMapTest extends TestCase
         $data = $this->openWeatherMap->fetchData();
 
         $expected = [
-            'Maribor_temp' => 15,
-            'Maribor_humidity' => 60,
-            'Maribor_pressure' => 1012,
-            'Maribor_wind_speed' => 5.5
+            'Beltinci_temp' => 15,
+            'Beltinci_humidity' => 60,
+            'Beltinci_pressure' => 1012,
+            'Beltinci_wind_speed' => 5.5
         ];
 
         $this->assertEquals($expected, $data);

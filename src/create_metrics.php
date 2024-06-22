@@ -4,6 +4,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use Dotenv\Dotenv;
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\RequestException;
 use Vesna\DataboxIntegrationChallenge\Logger;
 
 // Load environment variables from .env file
@@ -13,7 +14,6 @@ $dotenv->load();
 class DataboxMetricsSetup
 {
     private $client;
-    private $existingMetrics = [];
 
     public function __construct($token)
     {
@@ -21,44 +21,39 @@ class DataboxMetricsSetup
             throw new \Exception('Databox token not provided.');
         }
         $this->client = new Client([
-            'base_uri' => 'https://push.databox.com/',
+            'base_uri' => 'https://push.databox.com/v1/',
             'headers' => [
                 'Authorization' => 'Basic ' . base64_encode($token . ':')
             ]
         ]);
-        $this->existingMetrics = $this->fetchExistingMetrics();
     }
 
-    private function fetchExistingMetrics()
+    private function createMetric($metric)
     {
+        $key = $metric['key'];
+        $name = $metric['name'];
+        $type = $metric['type'] ?? 'total';
+        $dataType = $metric['data_type'] ?? 'float';
+        $unit = $metric['unit'] ?? '';
+        $description = $metric['description'] ?? '';
+        $aggregation = $metric['aggregation'] ?? 'latest';
+
         try {
-            $response = $this->client->get('metrics');
-            $metrics = json_decode($response->getBody(), true);
-            return array_column($metrics, 'key');
-        } catch (\Exception $e) {
-            Logger::log("Error fetching existing metrics: " . $e->getMessage());
-            return [];
-        }
-    }
-
-    private function createMetricIfNotExists($key, $name, $type = 'number', $dataType = 'float')
-    {
-        if (!in_array($key, $this->existingMetrics)) {
-            try {
-                $this->client->post('metrics', [
-                    'json' => [
-                        'key' => $key,
-                        'name' => $name,
-                        'type' => $type,
-                        'data_type' => $dataType,
-                        'unit' => ''
-                    ]
-                ]);
-                $this->existingMetrics[] = $key;
-                Logger::log("Metric created: $key");
-            } catch (\Exception $e) {
-                Logger::log("Error creating metric $key: " . $e->getMessage());
-            }
+            $this->client->post('metrics', [
+                'json' => [
+                    'key' => $key,
+                    'name' => $name,
+                    'type' => $type,
+                    'data_type' => $dataType,
+                    'unit' => $unit,
+                    'description' => $description,
+                    'aggregation' => $aggregation
+                ]
+            ]);
+            Logger::log("Metric created: $key");
+        } catch (RequestException $e) {
+            Logger::log("Error creating metric $key: " . $e->getMessage());
+            throw $e;
         }
     }
 
@@ -70,7 +65,7 @@ class DataboxMetricsSetup
         }
 
         foreach ($config['metrics'] as $metric) {
-            $this->createMetricIfNotExists($metric['key'], $metric['name'], $metric['type'], $metric['data_type']);
+            $this->createMetric($metric);
         }
     }
 }

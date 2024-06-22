@@ -6,6 +6,8 @@ services:
     environment:
       - OPENWEATHERMAP_API_KEY=${OPENWEATHERMAP_API_KEY}
       - DATABOX_TOKEN=${DATABOX_TOKEN}
+    volumes:
+      - ./logs:/app/logs
     command: ["php", "src/index.php", "weather"]
 
   github:
@@ -13,4 +15,18 @@ services:
     environment:
       - GITHUB_TOKEN=${GITHUB_TOKEN}
       - DATABOX_TOKEN=${DATABOX_TOKEN}
+    volumes:
+      - ./logs:/app/logs
     command: ["php", "src/index.php", "github"]
+
+  tests:
+    build: .
+    environment:
+      - OPENWEATHERMAP_API_KEY=${OPENWEATHERMAP_API_KEY}
+      - DATABOX_TOKEN=${DATABOX_TOKEN}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    working_dir: /app
+    command: ["./vendor/bin/phpunit", "--testdox", "tests/unit"]

@@ -31,6 +31,7 @@ class OpenWeatherMap
         ]);
 
         $data = json_decode($response->getBody(), true);
+        Logger::log("Fetched raw weather data: " . json_encode($data));
         return $this->extractMetrics($data);
     }
 
@@ -46,6 +47,7 @@ class OpenWeatherMap
                 $extracted[$citySpecificKey] = $value;
             }
         }
+        Logger::log("Processed weather data to send: " . json_encode($extracted));
         return $extracted;
     }
 
